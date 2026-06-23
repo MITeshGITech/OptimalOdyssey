@@ -1,0 +1,40 @@
+
+Saved figure to: outputs/01_tiny_5x5_open_summary.png
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+
+Dijkstra
+--------
+Average Runtime      : 0.0243 ms
+Median Runtime       : 0.0243 ms
+Average Nodes        : 18.50
+Median Nodes         : 18.50
+Total Nodes          : 37
+Average Speedup      : 1.00x
+
+A* Euclidean
+------------
+Average Runtime      : 0.0102 ms
+Median Runtime       : 0.0102 ms
+Average Nodes        : 13.50
+Median Nodes         : 13.50
+Total Nodes          : 27
+Average Speedup      : 3.03x
+
+A* Manhattan
+------------
+Average Runtime      : 0.0078 ms
+Median Runtime       : 0.0078 ms
+Average Nodes        : 12.50
+Median Nodes         : 12.50
+Total Nodes          : 25
+Average Speedup      : 4.66x
+
+============================================================
+
+Algorithm Ranking (by Average Runtime):
+1. A* Manhattan    0.0078 ms
+2. A* Euclidean    0.0102 ms
+3. Dijkstra        0.0243 ms

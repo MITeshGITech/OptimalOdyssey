@@ -1,0 +1,40 @@
+
+Saved figure to: outputs/02_small_8x8_wall_summary.png
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+
+Dijkstra
+--------
+Average Runtime      : 0.0416 ms
+Median Runtime       : 0.0388 ms
+Average Nodes        : 51.00
+Median Nodes         : 54.00
+Total Nodes          : 153
+Average Speedup      : 1.00x
+
+A* Euclidean
+------------
+Average Runtime      : 0.0244 ms
+Median Runtime       : 0.0277 ms
+Average Nodes        : 31.00
+Median Nodes         : 32.00
+Total Nodes          : 93
+Average Speedup      : 1.70x
+
+A* Manhattan
+------------
+Average Runtime      : 0.0217 ms
+Median Runtime       : 0.0222 ms
+Average Nodes        : 28.00
+Median Nodes         : 29.00
+Total Nodes          : 84
+Average Speedup      : 1.92x
+
+============================================================
+
+Algorithm Ranking (by Average Runtime):
+1. A* Manhattan    0.0217 ms
+2. A* Euclidean    0.0244 ms
+3. Dijkstra        0.0416 ms

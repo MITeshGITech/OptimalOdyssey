@@ -1,0 +1,40 @@
+
+Saved figure to: outputs/04_small_12x12_u_trap_summary.png
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+
+Dijkstra
+--------
+Average Runtime      : 0.0943 ms
+Median Runtime       : 0.0834 ms
+Average Nodes        : 122.67
+Median Nodes         : 123.00
+Total Nodes          : 368
+Average Speedup      : 1.00x
+
+A* Euclidean
+------------
+Average Runtime      : 0.0714 ms
+Median Runtime       : 0.0686 ms
+Average Nodes        : 90.67
+Median Nodes         : 89.00
+Total Nodes          : 272
+Average Speedup      : 1.32x
+
+A* Manhattan
+------------
+Average Runtime      : 0.0569 ms
+Median Runtime       : 0.0600 ms
+Average Nodes        : 67.33
+Median Nodes         : 68.00
+Total Nodes          : 202
+Average Speedup      : 1.66x
+
+============================================================
+
+Algorithm Ranking (by Average Runtime):
+1. A* Manhattan    0.0569 ms
+2. A* Euclidean    0.0714 ms
+3. Dijkstra        0.0943 ms

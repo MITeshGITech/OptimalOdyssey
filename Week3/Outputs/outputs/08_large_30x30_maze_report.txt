@@ -1,0 +1,40 @@
+
+Saved figure to: outputs/08_large_30x30_maze_summary.png
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+
+Dijkstra
+--------
+Average Runtime      : 0.3161 ms
+Median Runtime       : 0.3137 ms
+Average Nodes        : 503.80
+Median Nodes         : 508.00
+Total Nodes          : 2519
+Average Speedup      : 1.00x
+
+A* Euclidean
+------------
+Average Runtime      : 0.3281 ms
+Median Runtime       : 0.3364 ms
+Average Nodes        : 498.80
+Median Nodes         : 502.00
+Total Nodes          : 2494
+Average Speedup      : 0.97x
+
+A* Manhattan
+------------
+Average Runtime      : 0.3234 ms
+Median Runtime       : 0.3130 ms
+Average Nodes        : 498.00
+Median Nodes         : 502.00
+Total Nodes          : 2490
+Average Speedup      : 0.99x
+
+============================================================
+
+Algorithm Ranking (by Average Runtime):
+1. Dijkstra        0.3161 ms
+2. A* Manhattan    0.3234 ms
+3. A* Euclidean    0.3281 ms

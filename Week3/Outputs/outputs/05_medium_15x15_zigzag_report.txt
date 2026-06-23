@@ -1,0 +1,40 @@
+
+Saved figure to: outputs/05_medium_15x15_zigzag_summary.png
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+
+Dijkstra
+--------
+Average Runtime      : 0.1320 ms
+Median Runtime       : 0.1242 ms
+Average Nodes        : 171.75
+Median Nodes         : 174.00
+Total Nodes          : 687
+Average Speedup      : 1.00x
+
+A* Euclidean
+------------
+Average Runtime      : 0.1209 ms
+Median Runtime       : 0.1187 ms
+Average Nodes        : 158.25
+Median Nodes         : 160.50
+Total Nodes          : 633
+Average Speedup      : 1.09x
+
+A* Manhattan
+------------
+Average Runtime      : 0.1197 ms
+Median Runtime       : 0.1143 ms
+Average Nodes        : 156.75
+Median Nodes         : 160.50
+Total Nodes          : 627
+Average Speedup      : 1.11x
+
+============================================================
+
+Algorithm Ranking (by Average Runtime):
+1. A* Manhattan    0.1197 ms
+2. A* Euclidean    0.1209 ms
+3. Dijkstra        0.1320 ms

@@ -1,0 +1,40 @@
+
+Saved figure to: outputs/07_medium_25x25_rings_summary.png
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+
+Dijkstra
+--------
+Average Runtime      : 0.3794 ms
+Median Runtime       : 0.4003 ms
+Average Nodes        : 455.00
+Median Nodes         : 504.00
+Total Nodes          : 2275
+Average Speedup      : 1.00x
+
+A* Euclidean
+------------
+Average Runtime      : 0.3012 ms
+Median Runtime       : 0.3169 ms
+Average Nodes        : 326.20
+Median Nodes         : 346.00
+Total Nodes          : 1631
+Average Speedup      : 1.50x
+
+A* Manhattan
+------------
+Average Runtime      : 0.2287 ms
+Median Runtime       : 0.1939 ms
+Average Nodes        : 219.40
+Median Nodes         : 189.00
+Total Nodes          : 1097
+Average Speedup      : 1.93x
+
+============================================================
+
+Algorithm Ranking (by Average Runtime):
+1. A* Manhattan    0.2287 ms
+2. A* Euclidean    0.3012 ms
+3. Dijkstra        0.3794 ms

@@ -1,0 +1,40 @@
+
+Saved figure to: outputs/10_xlarge_50x50_rooms_summary.png
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+
+Dijkstra
+--------
+Average Runtime      : 1.6163 ms
+Median Runtime       : 1.6281 ms
+Average Nodes        : 2149.57
+Median Nodes         : 2262.00
+Total Nodes          : 15047
+Average Speedup      : 1.00x
+
+A* Euclidean
+------------
+Average Runtime      : 1.2898 ms
+Median Runtime       : 1.5591 ms
+Average Nodes        : 1321.29
+Median Nodes         : 1411.00
+Total Nodes          : 9249
+Average Speedup      : 1.60x
+
+A* Manhattan
+------------
+Average Runtime      : 0.6323 ms
+Median Runtime       : 0.6153 ms
+Average Nodes        : 589.86
+Median Nodes         : 522.00
+Total Nodes          : 4129
+Average Speedup      : 3.12x
+
+============================================================
+
+Algorithm Ranking (by Average Runtime):
+1. A* Manhattan    0.6323 ms
+2. A* Euclidean    1.2898 ms
+3. Dijkstra        1.6163 ms

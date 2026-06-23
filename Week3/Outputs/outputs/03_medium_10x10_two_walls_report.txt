@@ -1,0 +1,40 @@
+
+Saved figure to: outputs/03_medium_10x10_two_walls_summary.png
+
+============================================================
+PERFORMANCE SUMMARY
+============================================================
+
+Dijkstra
+--------
+Average Runtime      : 0.0949 ms
+Median Runtime       : 0.0555 ms
+Average Nodes        : 72.00
+Median Nodes         : 71.00
+Total Nodes          : 216
+Average Speedup      : 1.00x
+
+A* Euclidean
+------------
+Average Runtime      : 0.0530 ms
+Median Runtime       : 0.0502 ms
+Average Nodes        : 65.00
+Median Nodes         : 65.00
+Total Nodes          : 195
+Average Speedup      : 1.71x
+
+A* Manhattan
+------------
+Average Runtime      : 0.0452 ms
+Median Runtime       : 0.0449 ms
+Average Nodes        : 58.33
+Median Nodes         : 56.00
+Total Nodes          : 175
+Average Speedup      : 2.15x
+
+============================================================
+
+Algorithm Ranking (by Average Runtime):
+1. A* Manhattan    0.0452 ms
+2. A* Euclidean    0.0530 ms
+3. Dijkstra        0.0949 ms
