@@ -1,0 +1,26 @@
+{
+    "meta": {
+        "id": "assignment_02"
+    },
+    "events": [
+        {
+            "id": 1,
+            "type": "tsp",
+            "nodes": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "type": "tsp",
+            "nodes": [
+                0,
+                1,
+                3,
+                4
+            ]
+        }
+    ]
+}

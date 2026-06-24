@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "id": "assignment_02"
+    },
+    "results": [
+        {
+            "id": 1,
+            "query_id": 1,
+            "algorithm": "held_karp",
+            "cost": 8,
+            "tour": [0,2,1,0]
+        },
+        {
+            "id": 2,
+            "query_id": 2,
+            "algorithm": "held_karp",
+            "cost": 18,
+            "tour": [0,3,4,1,0]
+        }
+    ]
+}

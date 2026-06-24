@@ -1,0 +1,15 @@
+=== SMALL ===
+Comparing results/output_small_brute.json against results/output_small_opt.json
+
+Query ID   | Brute Force     | Optimized       | Diff / Ratio   
+------------------------------------------------------------
+1          | 8               | 8               | Exact Match ✅  
+2          | 18              | 18              | Exact Match ✅  
+
+=== LARGE ===
+Comparing results/output_large_brute.json against results/output_large_opt.json
+
+Query ID   | Brute Force     | Optimized       | Diff / Ratio   
+------------------------------------------------------------
+1          | 30              | 30              | Exact Match ✅  
+2          | 30              | 30              | Exact Match ✅  
